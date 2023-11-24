@@ -12,9 +12,6 @@
                         <!-- Nested Row within Card Body -->
                         <div class="row">
                             <!-- {{-- <div class="col-lg-5 d-none d-lg-block bg-register-image"></div> --}} -->
-                            <div class="col-lg-6 bg-login-image d-flex">
-                                <!-- <img src="{{ URL::asset('./admins/assets/img/laycorgi.gif')}}" alt=""> -->
-                            </div>
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
@@ -67,6 +64,9 @@
                                         
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-lg-6  d-flex">
+                                <img src="../assets/sh160i-den.png" alt="">
                             </div>
                         </div>
                     </div>    

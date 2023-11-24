@@ -12,13 +12,10 @@
                     <div class="card-body p-0" >
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6 bg-login-image d-flex">
-                                <img src="" alt="">
-                            </div>
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">WELCOME</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">CHÀO MỪNG</h1>
                                     </div>
                 
                                      <!-- Start to Login  -->
@@ -42,7 +39,6 @@
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck" checked>
-                                                <label class="custom-control-label" for="customCheck">Ghi nhớ tôi</label>
                                             </div>
                                         </div>
                                         <button type="button" class="btn btn-primary btn-user btn-block" @click="login(this.user)">
@@ -61,6 +57,9 @@
                                         </router-link>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-lg-6  d-flex">
+                                <img src="../assets/sh160i-den.png" alt="">
                             </div>
                         </div>
                     </div>    
